@@ -4,3 +4,4 @@
 
 * See the [Getting Started with JavaScript Tutorial](../../../../docs/designers-developers/developers/tutorials/javascript/readme.md) to learn about how to use JavaScript within WordPress.
 
+* See the [Meta Boxes Tutorial](../../../../docs/designers-developers/developers/tutorials/metabox/readme.md) for new ways of extending the editor storing and using post meta data.
