@@ -17,6 +17,13 @@ describe( 'a11y', () => {
 		await createNewPost();
 	} );
 
+	afterEach( async () => {
+		await expect( page ).toBeAccessible( {
+			include: '.block-editor',
+			exclude: '#metaboxes, #post-title-0, .editor-default-block-appender__content',
+		} );
+	} );
+
 	it( 'tabs header bar', async () => {
 		await pressKeyWithModifier( 'ctrl', '~' );
 

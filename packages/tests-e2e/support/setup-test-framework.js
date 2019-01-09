@@ -8,6 +8,7 @@ import { get } from 'lodash';
  * WordPress dependencies
  */
 import '@wordpress/jest-console';
+import '@wordpress/jest-puppeteer-axe';
 
 /**
  * Internal dependencies
